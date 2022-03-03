@@ -16,7 +16,7 @@ import java.util.Map;
 public class Producer {
     
     private static final Logger logger = LoggerFactory.getLogger(Producer.class);
-    private static final String TOPIC = "topic.local";
+    private static final String TOPIC = "quickstart-events";
 
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
